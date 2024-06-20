@@ -1,0 +1,84 @@
+[
+    {
+        "title": "首页",
+        "path": "/index",
+        "icon": "HomeFilled",
+        "children": []
+    },
+    {
+        "title": "用户管理",
+        "path": "/user-manage",
+        "icon": "User",
+        "children": [
+            {
+                "title": "用户列表",
+                "path": "/user-manage/list",
+                "icon": "List"
+            }
+        ]
+    },
+    {
+        "title": "权限管理",
+        "path": "/right-manage",
+        "icon": "Key",
+        "children": [
+            {
+                "title": "角色列表",
+                "path": "/right-manage/rolelist",
+                "icon": "List"
+            },
+            {
+                "title": "权限列表",
+                "path": "/right-manage/rightlist",
+                "icon": "List"
+            }
+        ]
+    },
+    {
+        "title": "实验室管理",
+        "path": "/lab-manage",
+        "icon": "OfficeBuilding",
+        "children": [
+            {
+                "title": "实验室列表",
+                "path": "/lab-manage/lablist",
+                "icon": "List"
+            },
+            {
+                "title": "添加实验室",
+                "path": "/lab-manage/addlab",
+                "icon": "List"
+            },
+            {
+                "title": "设备列表",
+                "path": "/lab-manage/devicelist",
+                "icon": "List"
+            }
+        ]
+    },
+    {
+        "title": "系统管理",
+        "path": "/system",
+        "icon": "SettingOutlined",
+        "children": [
+            {
+                "title": "菜单管理",
+                "path": "/system/menu",
+                "icon": "MenuOutlined",
+                "children": []
+            },
+            {
+                "title": "角色管理",
+                "path": "/system/role",
+                "icon": "TeamOutlined",
+                "children": []
+            },
+            {
+                "title": "用户管理",
+                "path": "/system/user",
+                "icon": "UserOutlined",
+                "children": []
+            }
+        ]
+    }
+]

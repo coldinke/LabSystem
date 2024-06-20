@@ -1,0 +1,114 @@
+info:
+  contact: {}
+paths:
+  /admin/api/labs:
+    get:
+      consumes:
+      - application/json
+      description: Retrieve all labs from the database and return the data string
+        as JSON
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            type: string
+      summary: get the all labs
+      tags:
+      - Rights
+  /admin/api/rights:
+    get:
+      consumes:
+      - application/json
+      description: Retrieve all rights from the database and return the data string
+        as JSON
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            type: string
+      summary: get the all rights
+      tags:
+      - Rights
+  /admin/api/rights/{id}:
+    put:
+      description: Update the right by id to database
+      responses:
+        "200":
+          description: '{"code": "200", "err":"", "data":""}'
+          schema:
+            type: string
+      summary: update the right by id
+      tags:
+      - Rights
+  /admin/api/roles:
+    get:
+      consumes:
+      - application/json
+      description: Retrieve all roles from the database and return the data sting
+        as JSON
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            type: string
+      summary: get the all roles
+      tags:
+      - Role
+  /admin/api/roles/{id}:
+    delete:
+      consumes:
+      - application/json
+      description: Delete role By ID
+      parameters:
+      - description: RoleID
+        in: path
+        name: id
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            type: string
+      summary: Delete role by ID
+      tags:
+      - Role
+    put:
+      consumes:
+      - application/json
+      description: update the role by ID.
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            type: string
+      summary: update role by ID
+      tags:
+      - Role
+  /admin/api/users:
+    get:
+      consumes:
+      - application/json
+      description: Retrieve all users from the database and return the data string
+        as JSON
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            type: string
+      summary: get the all users
+      tags:
+      - Users
+swagger: "2.0"

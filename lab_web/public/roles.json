@@ -1,0 +1,49 @@
+[
+    {
+        "id": 1,
+        "roleType": "1000",
+        "rights": [
+            {
+                "title": "首页",
+                "path": "/index",
+                "icon": "HomeFilled",
+                "children": []
+            },
+            {
+                "title": "用户管理",
+                "path": "/user-manage",
+                "icon": "User",
+                "children": []
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "roleType": "1001",
+        "rights": [
+            {
+                "title": "首页",
+                "path": "/index",
+                "icon": "HomeFilled",
+                "children": []
+            },
+            {
+                "title": "用户管理",
+                "path": "/user-manage",
+                "icon": "User",
+                "children": []
+            }
+        ]
+
+    },
+    {
+        "id": 3,
+        "roleType": "1002",
+        "rights": []
+    },
+    {
+        "id": 4,
+        "roleType": "1003",
+        "rights": []
+    }
+]

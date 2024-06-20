@@ -1,0 +1,113 @@
+[{
+    "id": 1,
+    "username": "admin",
+    "passowrd": "12",
+    "role": {
+        "ID": 1,
+        "CreatedAt": "2024-04-29T00:53:15.085+08:00",
+        "UpdatedAt": "2024-04-29T00:53:15.088+08:00",
+        "DeletedAt": null,
+        "roleType": 1000,
+        "Rights": [
+          {
+            "id": 1,
+            "title": "首页",
+            "path": "/index",
+            "icon": "HomeFilled",
+            "children": []
+          },
+          {
+            "id": 2,
+            "title": "用户管理",
+            "path": "/user-manage",
+            "icon": "User",
+            "children": [
+              {
+                "id": 3,
+                "title": "用户列表",
+                "path": "/user-manage/list",
+                "icon": "List",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "title": "权限管理",
+            "path": "/right-manage",
+            "icon": "Key",
+            "children": [
+              {
+                "id": 5,
+                "title": "角色列表",
+                "path": "/right-manage/roleList",
+                "icon": "List",
+                "children": []
+              },
+              {
+                "id": 6,
+                "title": "权限列表",
+                "path": "/right-manage/rightList",
+                "icon": "List",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "title": "实验室管理",
+            "path": "/lab-manage",
+            "icon": "OfficeBuilding",
+            "children": [
+              {
+                "id": 8,
+                "title": "实验室列表",
+                "path": "/lab-manage/labList",
+                "icon": "List",
+                "children": []
+              },
+              {
+                "id": 9,
+                "title": "添加实验室",
+                "path": "/lab-manage/addLab",
+                "icon": "List",
+                "children": []
+              },
+              {
+                "id": 10,
+                "title": "设备管理",
+                "path": "/lab-manage/deviceList",
+                "icon": "List",
+                "children": []
+              }
+            ]
+          }
+        ]
+    }
+} , 
+{
+    "id": 2,
+    "username": "test",
+    "passowrd": "12",
+    "role":{
+        "ID": 1,
+        "CreatedAt": "2024-04-29T00:53:15.085+08:00",
+        "UpdatedAt": "2024-04-29T00:53:15.088+08:00",
+        "DeletedAt": null,
+        "roleType": 1000,
+        "Rights": [
+            {
+              "ID": 1,
+              "CreatedAt": "2024-04-29T00:53:10.308+08:00",
+              "UpdatedAt": "2024-04-29T00:53:10.308+08:00",
+              "DeletedAt": null,
+              "Title": "首页",
+              "Path": "/index",
+              "Icon": "HomeFilled",
+              "ParentId": 0,
+              "IsLeaf": 0
+            }
+        ]
+    }
+}
+]
